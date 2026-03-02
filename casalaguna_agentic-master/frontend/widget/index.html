@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Casa Laguna — Asistente</title>
+  <link rel="stylesheet" href="src/style.css" />
+  <!-- Google Fonts - Montserrat & Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Iconos -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+  <!-- BOTÓN FLOTANTE -->
+  <button id="chat-toggle" class="chat-toggle" aria-label="Abrir asistente de chat" title="Abrir chat">
+    <i class="fa-solid fa-message" aria-hidden="true"></i>
+    <span class="chat-badge" aria-label="1 mensaje no leído">1</span>
+  </button>
+
+  <!-- CONTENEDOR CHAT -->
+  <div id="chat-container" class="chat-container hidden">
+
+    <div class="chat-header">
+      <div class="chat-title">
+        <strong>Casa Laguna</strong>
+        <span class="online-status" aria-live="polite">
+          <span class="online-dot" aria-hidden="true"></span>
+          Agente en Línea
+        </span>
+      </div>
+      <div class="header-actions">        <button id="actions-toggle" class="actions-toggle" title="Acciones principales" aria-label="Mostrar acciones principales">
+          <i class="fa-solid fa-list" aria-hidden="true"></i>
+        </button>        <button id="lang-btn" class="lang-btn" title="Cambiar idioma" aria-label="Seleccionar idioma" aria-expanded="false">
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+        </button>
+        <button class="close-btn" onclick="closeChat()" aria-label="Cerrar chat" title="Cerrar ventana del chat">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- LANGUAGE SELECTOR DROPDOWN -->
+    <div id="lang-dropdown" class="lang-dropdown hidden">
+      <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+      <button class="lang-option" data-lang="en">🇬🇧 English</button>
+      <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+      <button class="lang-option" data-lang="pt">🇵🇹 Português</button>
+    </div>
+
+    <div id="chat" class="chat-body">
+      <div class="message bot">
+        Hola, soy Abigail 👩‍🍳<br>
+        ¿En qué puedo ayudarte hoy?
+      </div>
+      
+      <!-- CONTENEDOR DE MENÚ CON NAVEGACIÓN (Dentro del chat) -->
+      <div id="menu-container" class="menu-container hidden">
+        <button class="menu-close-btn" onclick="closeMenuCarousel()" title="Cerrar menú" aria-label="Cerrar menú">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="menu-nav">
+          <button id="menu-prev" class="menu-arrow menu-arrow-left" onclick="previousMenuItem()">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          
+          <div class="menu-display" id="menu-display">
+            <!-- El elemento actual se mostrará aquí -->
+          </div>
+          
+          <button id="menu-next" class="menu-arrow menu-arrow-right" onclick="nextMenuItem()">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+        
+        <div class="menu-counter">
+          <span id="menu-current">1</span> / <span id="menu-total">19</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input
+        id="input"
+        type="text"
+        placeholder="Escribe tu mensaje…"
+        autocomplete="off"
+      />
+      <button onclick="sendMessage()">
+        <i class="fa-solid fa-paper-plane"></i>
+      </button>
+    </div>
+
+    <!-- POWERED BY BLOCK -->
+    <div id="powered-by" class="powered-by">
+      <a href="https://synaptiq.com.mx/" target="_blank" rel="noopener noreferrer" class="powered-link">
+        Powered by <span class="synaptiq-brand">SynaptiQ</span>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="src/main.js"></script>
+</body>
+</html>

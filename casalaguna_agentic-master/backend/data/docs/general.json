@@ -1,0 +1,56 @@
+[
+  {
+    "id": "general_brand_casa_laguna",
+    "type": "restaurant_general",
+    "category": "brand_concept",
+    "content": "Casa Laguna es un restaurante de cocina contemporánea especializado en mariscos. Un espacio donde la gastronomía, el entorno natural y el diseño se integran para ofrecer una experiencia relajada y sofisticada. Restaurante de mariscos, cocina contemporánea, experiencia gastronómica, ambiente sofisticado, diseño integrado, naturaleza, relajado.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_GENERAL",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "general_concept_philosophy_casa_laguna",
+    "type": "restaurant_general",
+    "category": "concept_philosophy",
+    "content": "El concepto de Casa Laguna se basa en la frescura de ingredientes, sabores del mar y propuesta culinaria que combina técnicas modernas con inspiración mediterránea y mexicana. Filosofía de frescura, ingredientes frescos, sabores marinos, técnicas modernas, inspiración mediterránea, cocina mexicana, experiencia sensorial.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_GENERAL",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "general_ambience_casa_laguna",
+    "type": "restaurant_general",
+    "category": "ambience_atmosphere",
+    "content": "Ambiente Casa Laguna: Elegante sin ser rígido, atmósfera relajada con vista a la laguna. Iluminación cuidada, luz natural durante el día, ambiente cálido por la noche, nivel de ruido moderado. Diseño que aprovecha la vista, conexión con naturaleza, espacio amplio. Ambiente, atmósfera, decoración, vista, iluminación, ruido, diseño, naturaleza.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_GENERAL",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "general_audience_occasions_casa_laguna",
+    "type": "restaurant_general",
+    "category": "audience_occasions",
+    "content": "Casa Laguna es para: parejas, familias, grupos de amigos, comidas de negocios informales, celebraciones especiales, reuniones sociales, eventos privados. Ocasiones: comidas familiares, cenas familiares, citas románticas, celebraciones, reuniones sociales, negocios, eventos privados. Público, clientes, tipos de visitantes, ocasiones, para qué sirve, cuándo ir.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_GENERAL",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "general_differentiators_casa_laguna",
+    "type": "restaurant_general",
+    "category": "differentiators",
+    "content": "Elementos diferenciadores Casa Laguna: Ubicación con vista a la laguna, propuesta gastronómica enfocada en mariscos frescos, ambiente elegante y relajado, ideal para múltiples tipos de ocasión. Lo que nos distingue, características especiales, ventajas, puntos fuertes, qué nos hace diferentes.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_GENERAL",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "general_experience_summary_casa_laguna",
+    "type": "restaurant_general",
+    "category": "experience_summary",
+    "content": "Experiencia Casa Laguna: Gastronomía completa donde el sabor de los platillos, servicio atento y entorno natural se combinan para crear ambiente acogedor y memorable. El asistente virtual debe comunicar con tono amable, cercano y profesional. Resumen experiencia, qué esperar, servicio, atención, ambiente acogedor, memorable, tono del asistente.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_GENERAL",
+    "updated_at": "2025-01-01"
+  }
+]

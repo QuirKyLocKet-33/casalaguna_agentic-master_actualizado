@@ -1,0 +1,41 @@
+/* ============================================================
+   ADMIN MODULE — Vanguardista Oscuro
+============================================================ */
+.admin-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.admin-container h1 {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #e2e8f0, #94a3b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 24px;
+  letter-spacing: -0.03em;
+}
+
+.admin-container p {
+  color: var(--text-secondary);
+  font-size: 15px;
+  background: rgba(13, 13, 22, 0.6);
+  backdrop-filter: blur(20px);
+  padding: 48px 32px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  text-align: center;
+  position: relative;
+}
+
+.admin-container p::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-lg);
+  background: radial-gradient(ellipse at 50% 0%, rgba(99, 102, 241, 0.04) 0%, transparent 50%);
+  pointer-events: none;
+}

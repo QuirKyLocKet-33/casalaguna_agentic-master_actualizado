@@ -1,0 +1,268 @@
+[
+  {
+    "id": "hours_operation",
+    "type": "faq",
+    "category": "hours",
+    "content": "Horario Casa Laguna Tampico: Abierto de 06:00 a 23:00 horas. Horas de apertura, cierre, atención al público, abierto desde, hasta qué hora, horario de servicio, horas de operación.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "hours_kitchen_close",
+    "type": "faq",
+    "category": "hours",
+    "content": "Cocina Casa Laguna: Servicio de cocina hasta las 23:30. Última orden, límite para pedir, hora límite cocina, última hora para ordenar, cierre de cocina, última llamada para comida.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "hours_holidays",
+    "type": "faq",
+    "category": "hours",
+    "content": "Horario festivos Casa Laguna: En días festivos confirmar en redes o contacto. Feriados, días especiales, vacaciones, puentes, festividades, Navidad, Año Nuevo, horario variable festivos.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+
+  {
+    "id": "reservation_last_time",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Reservaciones Casa Laguna: Última hora para reservar 23:00. Límite reservas, última reservación aceptada, hasta qué hora reservar, tope para reservar, hora final para reservaciones.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_walkins",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Sin reserva Casa Laguna: Se aceptan clientes sin reserva según disponibilidad. Walk-ins, llegada directa, sin cita previa, sin reservación previa, cliente espontáneo.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_channels",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Reservar Casa Laguna: Por WhatsApp, Instagram, Facebook o sitio web. Dónde reservar, canales de reserva, medios para reservar, formas de reservación, plataformas para reservar.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_requirements",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Datos reserva Casa Laguna: Necesario nombre,fecha de nacimiento, teléfono, personas, fecha, hora. Información requerida, datos necesarios, requisitos para reservar, qué se necesita, información para reservación.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_same_day",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Reserva mismo día Casa Laguna: Se permiten reservas mismo día según disponibilidad. Reservación hoy, reservar para hoy, reserva última hora, reserva de última hora.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_table_capacity",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Capacidad mesa Casa Laguna: Máximo 20 personas por mesa. Cupo mesa, límite por mesa, personas por mesa, capacidad máxima mesa, aforo por mesa.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_large_groups",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Grupos grandes Casa Laguna: Se aceptan grupos mayores a 20 personas. Eventos grandes, fiestas, reuniones numerosas, grupos extensos, reservas para muchos.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "reservation_cost",
+    "type": "faq",
+    "category": "reservation",
+    "content": "Costo reserva Casa Laguna: No tiene costo adicional. Gratis, sin cargo, sin costo extra, sin tarifa, sin cobro por reservar.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+
+  {
+    "id": "menu_fixed",
+    "type": "faq",
+    "category": "menu",
+    "content": "Carta Casa Laguna: Carta fija sin cambios temporales. Menú permanente, carta estable, platillos fijos, no cambia por temporada, siempre igual.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "menu_kids",
+    "type": "faq",
+    "category": "menu",
+    "content": "Menú niños Casa Laguna: Cuentan con menú infantil. Comida para niños, platillos infantiles, opciones para niños, menú de niños.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "menu_vegan",
+    "type": "faq",
+    "category": "menu",
+    "content": "Opciones veganas Casa Laguna: Menú incluye opciones veganas. Vegano, vegetariano estricto, sin productos animales, comida vegana.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "menu_keto",
+    "type": "faq",
+    "category": "menu",
+    "content": "Opciones keto Casa Laguna: Menú compatible con dieta keto. Dieta cetogénica, bajo en carbohidratos, alta en grasas, comida keto.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "menu_gluten_free",
+    "type": "faq",
+    "category": "menu",
+    "content": "Opciones sin gluten Casa Laguna: Menú incluye opciones sin gluten. Gluten free, libre de gluten, sin trigo, celíacos.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+
+  {
+    "id": "services_parking",
+    "type": "faq",
+    "category": "services",
+    "content": "Estacionamiento Casa Laguna: Estacionamiento propio gratuito. Parqueo, parking, lugar para estacionar, estacionamiento gratis, aparcamiento.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "services_kids_allowed",
+    "type": "faq",
+    "category": "services",
+    "content": "Niños Casa Laguna: Se aceptan niños. Niños permitidos, admite niños, niños bienvenidos, se aceptan menores.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "services_kids_area",
+    "type": "faq",
+    "category": "services",
+    "content": "Área infantil Casa Laguna: Cuentan con área infantil. Zona niños, espacio para niños, juegos infantiles, área de juegos.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "services_accessibility",
+    "type": "faq",
+    "category": "services",
+    "content": "Accesibilidad Casa Laguna: Instalaciones accesibles para discapacidad. Silla de ruedas, acceso discapacitados, movilidad reducida, accesible.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "services_pet_policy",
+    "type": "faq",
+    "category": "services",
+    "content": "Mascotas Casa Laguna: No permitidas. No Pet friendly, perros, gatos, mascotas prohibidas. Los animales/mascotas de servicio están prohibidas, no se permiten animales de servicio, los animales de servicio no pueden acceder al restaurante",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "services_dress_code",
+    "type": "faq",
+    "category": "services",
+    "content": "Vestimenta Casa Laguna: No hay código de vestimenta. Formal, informal, casual, etiqueta, ropa requerida.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+
+  {
+    "id": "events_special_days",
+    "type": "faq",
+    "category": "events",
+    "content": "Eventos especiales Casa Laguna: Día del Padre, Madre, San Valentín, 15 septiembre, Navidad, Año Nuevo. Celebraciones, fechas especiales, días festivos, eventos temáticos.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "events_private",
+    "type": "faq",
+    "category": "events",
+    "content": "Eventos privados Casa Laguna: Ofrecen eventos privados. Fiestas privadas, reuniones privadas, eventos cerrados, salón privado.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+
+  {
+    "id": "payments_cards",
+    "type": "faq",
+    "category": "payments",
+    "content": "Tarjetas Casa Laguna: Aceptan todas las tarjetas. Tarjeta crédito, débito, pago con tarjeta, Visa, Mastercard, American Express.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "payments_split_bill",
+    "type": "faq",
+    "category": "payments",
+    "content": "Dividir cuenta Casa Laguna: Se puede dividir la cuenta. Cuenta separada, pagar por separado, dividir pago, pagos individuales.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "payments_cash",
+    "type": "faq",
+    "category": "payments",
+    "content": "Efectivo Casa Laguna: Aceptan pagos en efectivo. Dinero en efectivo, pago en cash, pagar con efectivo.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "payments_invoice",
+    "type": "faq",
+    "category": "payments",
+    "content": "Facturación Casa Laguna: Ofrecen servicio de facturación. Factura, recibo fiscal, comprobante fiscal, factura electrónica.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "payments_minimum",
+    "type": "faq",
+    "category": "payments",
+    "content": "Consumo mínimo Casa Laguna: No existe consumo mínimo. Mínimo de consumo, gasto mínimo requerido, mínimo por persona.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_FAQ",
+    "updated_at": "2025-01-01"
+  }
+]

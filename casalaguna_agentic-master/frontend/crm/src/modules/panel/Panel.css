@@ -1,0 +1,1431 @@
+/* ============================================================
+   PANEL / DASHBOARD — Vista principal premium
+============================================================ */
+.panel-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+}
+
+.app-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-muted);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* ============================================================
+   DASHBOARD
+============================================================ */
+.dashboard {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 16px;
+}
+
+.header-content h1 {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 4px 0;
+  background: linear-gradient(135deg, #f1f5f9, #94a3b8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.03em;
+}
+
+.header-subtitle {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* [MOD] Pastillas de período en el header — filtran métricas globales */
+.header-period-pills {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-top: 0;
+}
+
+.live-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--success);
+  background: var(--success-light);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+
+.live-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--success);
+  border-radius: 50%;
+  animation: livePulse 2s infinite;
+}
+
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.stat-card {
+  background: rgba(13, 13, 22, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-lg);
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.stat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.stat-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  font-size: 18px;
+}
+
+.stat-trend {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+}
+
+.stat-trend.up {
+  color: var(--success);
+  background: var(--success-light);
+}
+
+.stat-trend.down {
+  color: var(--danger);
+  background: rgba(248, 113, 113, 0.1);
+}
+
+.stat-trend svg {
+  font-size: 9px;
+}
+
+.stat-body {
+  position: relative;
+  z-index: 2;
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0 0 2px 0;
+  color: var(--text-primary);
+  letter-spacing: -0.03em;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin: 0;
+  font-weight: 500;
+}
+
+.stat-glow {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  opacity: 0.08;
+  filter: blur(20px);
+}
+
+/* Dashboard Grid */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  auto-rows: max-content;
+  grid-auto-rows: auto;
+  min-height: 0;
+}
+
+/* Cards */
+.dashboard-card {
+  background: rgba(13, 13, 22, 0.6);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.card-action {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-action:hover {
+  background: var(--primary-light);
+}
+
+.card-badge {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-badge.online {
+  color: var(--success);
+  background: var(--success-light);
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ═══════════════════════════════════════════ */
+/* FILTROS DE PERÍODO (pastillas)              */
+/* ═══════════════════════════════════════════ */
+.activity-filters {
+  display: flex;
+  gap: 6px;
+  padding: 10px 20px 6px;
+}
+
+
+/* Unificar estilo de pastillas de tiempo con las de reservas */
+.activity-filter-pill {
+  padding: 8px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.03);
+  color: #94a3b8;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.activity-filter-pill:hover {
+  background: rgba(255,255,255,0.06);
+  color: #e2e8f0;
+}
+.activity-filter-pill.active {
+  background: rgba(99,102,241,0.15);
+  color: #818cf8;
+  border-color: rgba(99,102,241,0.3);
+}
+
+/* [MOD-COMPACT-ACTIVITY] Activity Card — altura fija y layout */
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  height: var(--metrics-max-height); /* [COPILOT-EDIT] Igualar altura con Métricas principales (global) */
+  overflow: hidden; /* [MOD-COMPACT-ACTIVITY] Evitar overflow del padding */
+}
+
+.activity-card .card-header {
+  flex-shrink: 0; /* [MOD-COMPACT-ACTIVITY] Header fijo, no se encoge */
+}
+
+/* [MOD-COMPACT-ACTIVITY] Contenedor scrollable para la lista */
+.activity-list-wrapper {
+  flex: 1;
+  overflow-y: auto; /* [MOD-COMPACT-ACTIVITY] Scroll vertical interno */
+  overflow-x: hidden; /* [MOD-COMPACT-ACTIVITY] Sin scroll horizontal */
+  display: flex;
+  flex-direction: column;
+  /* [MOD-COMPACT-ACTIVITY] Estilos de scrollbar discretos */
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary, #6366f1) rgba(255, 255, 255, 0.05);
+}
+
+/* [MOD-COMPACT-ACTIVITY] Scrollbar para navegadores WebKit (Chrome, Safari) */
+.activity-list-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.activity-list-wrapper::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
+
+.activity-list-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.4);
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.activity-list-wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.6);
+}
+
+/* Activity List */
+.activity-list {
+  padding: 4px 0; /* [MOD-COMPACT-ACTIVITY] Reduced from 8px 0 */
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* [MOD-COMPACT-ACTIVITY] Reduced from 14px */
+  padding: 8px 16px; /* [MOD-COMPACT-ACTIVITY] Reduced from 12px 20px */
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-item:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.activity-icon {
+  width: 32px; /* [MOD-COMPACT-ACTIVITY] Reduced from 36px */
+  height: 32px; /* [MOD-COMPACT-ACTIVITY] Reduced from 36px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  font-size: 12px; /* [MOD-COMPACT-ACTIVITY] Reduced from 14px */
+  flex-shrink: 0;
+  transition: background-color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-icon.success {
+  background: var(--success-light);
+  color: var(--success);
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-icon.primary {
+  background: var(--primary-light);
+  color: var(--primary);
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-icon.whatsapp {
+  background: rgba(37, 211, 102, 0.1);
+  color: #25d366;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-icon.info {
+  background: rgba(99, 102, 241, 0.1);
+  color: var(--primary);
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.activity-content {
+  flex: 1;
+  min-width: 0; /* [MOD-COMPACT-ACTIVITY] Permite text-overflow */
+  display: flex;
+  flex-direction: column;
+  gap: 2px; /* [MOD-COMPACT-ACTIVITY] Compact spacing */
+}
+
+.activity-title {
+  margin: 0;
+  font-size: 12px; /* [MOD-COMPACT-ACTIVITY] Reduced from 13px */
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap; /* [MOD-COMPACT-ACTIVITY] Prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* [MOD-COMPACT-ACTIVITY] Ellipsis para textos largos */
+}
+
+.activity-meta {
+  font-size: 10px; /* [MOD-COMPACT-ACTIVITY] Reduced from 11px */
+  color: var(--text-muted);
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap; /* [MOD-COMPACT-ACTIVITY] Prevent wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* [MOD-COMPACT-ACTIVITY] Ellipsis para meta */
+}
+
+.activity-time {
+  font-size: 10px; /* [MOD-COMPACT-ACTIVITY] Reduced from 11px */
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap; /* [MOD-COMPACT-ACTIVITY] Prevent time wrapping */
+}
+
+/* Performance Metrics */
+.performance-metrics {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.metric-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.metric-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.metric-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.metric-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.metric-bar {
+  height: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.metric-fill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              background 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.metric-fill.success {
+  background: linear-gradient(90deg, #34d399, #10b981);
+}
+
+.metric-fill.primary {
+  background: linear-gradient(90deg, #818cf8, #6366f1);
+}
+
+.metric-fill.warning {
+  background: linear-gradient(90deg, #fbbf24, #f59e0b);
+}
+
+.performance-footer {
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+/* ═══════════════════════════════════════════════════════════ */
+/* [MOD-GRID-METRICS] MÉTRICAS EN GRID 2x2 — Layout y altura    */
+/* Estructura: dashboard-card → header fijo + grid scrollable   */
+/* ═══════════════════════════════════════════════════════════ */
+
+/* [MOD-GRID-METRICS] Variables CSS para medidas */
+:root {
+  --activity-card-height: 420px;
+  --response-pill-height: 60px;
+  --cards-vertical-gap: 16px;
+  --metrics-max-height: calc(var(--activity-card-height) + var(--cards-vertical-gap) + var(--response-pill-height));
+}
+
+/* [MOD-GRID-METRICS] Contenedor principal tarjeta de métricas */
+.metrics-unified-card {
+  display: flex;
+  flex-direction: column;
+  min-height: var(--metrics-max-height); /* [COPILOT-EDIT] Igualar altura externa con Actividades recientes */
+  height: var(--metrics-max-height); /* [COPILOT-EDIT] Altura fija compartida */
+  overflow: hidden;
+  grid-row: span 2; /* Ocupar 2 filas en el grid */
+}
+
+/* [MOD-GRID-METRICS] Ocultar header si existe */
+.metrics-unified-card > .card-header {
+  display: none;
+}
+
+/* [MOD-GRID-METRICS] Contenedor GRID 2x2 — crecimiento flexible sin scroll */
+.metrics-charts-wrapper {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 12px;
+  padding: 12px;
+  box-sizing: border-box;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* [MOD-GRID-METRICS] Contenedor de cada gráfica — sin tarjeta visual */
+.metrics-chart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  min-height: 0;
+  min-width: 0;
+  gap: 6px;
+}
+
+/* [MOD-GRID-METRICS] Título de la gráfica — simple, sin fondo */
+.metrics-chart-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: color 0.3s ease;
+}
+
+/* [MOD-GRID-METRICS] Ocultar envolturas antiguas (fallback) */
+.donut-metric-card--unified {
+  display: none;
+}
+
+/* ═══════════════════════════════════════════ */
+/* [MOD] DONUT CHARTS — Gráficas de anillo 2D    */
+/* ═══════════════════════════════════════════ */
+/* [MOD-34] Métricas principales — tarjetas     */
+/* individuales con diseño analytics moderno    */
+/* ═══════════════════════════════════════════ */
+
+/* [MOD-34] Contenedor padre — fila de 3 tarjetas */
+.performance-charts-row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px 16px 12px;
+  flex-wrap: wrap;
+}
+
+/* [MOD-34] Tarjeta individual de cada métrica */
+.donut-metric-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 320px;
+  min-width: 260px;
+  flex: 1;
+  max-width: 340px;
+  background: var(--donut-card-bg);
+  border: 1px solid var(--donut-card-border);
+  border-radius: 4px;                           /* bordes cuadrados */
+  box-shadow: var(--donut-card-shadow);
+  padding: 0;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease,
+              background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* [MOD-34] Hover — sombra más pronunciada */
+.donut-metric-card:hover {
+  box-shadow: var(--donut-card-shadow-hover);
+}
+
+/* [MOD-34] Cabecera de la tarjeta */
+.donut-metric-card__header {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--donut-card-divider);
+}
+
+.donut-metric-card__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* [MOD-34] Cuerpo — gráfica + leyenda */
+.donut-metric-card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+}
+
+/* [MOD-34] Contenedor del donut dentro de la card */
+.donut-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.donut-chart-title {
+  display: none;  /* [MOD-34] Título movido a la cabecera de la tarjeta */
+}
+
+.donut-chart-svg-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donut-chart-svg {
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.12));
+}
+
+.donut-slice {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.donut-slice:hover {
+  opacity: 0.8;
+  filter: brightness(1.12);
+}
+
+.donut-chart-empty {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--bg-secondary, #f8fafc);
+  color: var(--text-tertiary, #94a3b8);
+  font-size: 13px;
+  font-weight: 500;
+  border: 2px dashed var(--border, #e2e8f0);
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              color 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* [MOD] Tooltip flotante del donut */
+.donut-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--bg-primary, #fff);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  padding: 6px 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  z-index: 20;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.donut-tooltip strong {
+  font-size: 12px;
+  color: var(--text-primary, #1e293b);
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.donut-tooltip span {
+  font-size: 11px;
+  color: var(--text-secondary, #64748b);
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* [MOD-34] Línea divisoria entre gráfica y leyenda */
+.donut-metric-card__divider {
+  width: 100%;
+  height: 1px;
+  background: var(--donut-card-divider);
+  margin: 4px 0;
+}
+
+/* [MOD] Leyenda del donut */
+.donut-legend {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.donut-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+/* [MOD-34] Hover en items de leyenda */
+.donut-legend-item:hover {
+  background: var(--donut-card-legend-hover);
+}
+
+.donut-legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.donut-legend-text {
+  font-size: 11px;
+  color: var(--text-secondary, #64748b);
+  font-weight: 500;
+  transition: color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* [MOD-34] Responsive: apilar en pantallas pequeñas */
+@media (max-width: 520px) {
+  .performance-charts-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .donut-metric-card {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.perf-stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.perf-stat svg {
+  color: var(--primary);
+}
+
+.perf-stat strong {
+  color: var(--text-primary);
+}
+
+/* Channels */
+.channels-card {
+  grid-column: span 2;
+}
+
+.channels-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--border);
+}
+
+.channel-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background: rgba(13, 13, 22, 0.6);
+}
+
+.channel-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  font-size: 18px;
+}
+
+.channel-icon.whatsapp {
+  background: rgba(37, 211, 102, 0.1);
+  color: #25d366;
+}
+
+.channel-icon.web {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.channel-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.channel-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.channel-status {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.channel-status.connected {
+  color: var(--success);
+}
+
+.channel-count {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+/* [MOD-GRID-METRICS] Suavizar bordes — radios más circulares */
+:root {
+  --card-radius-lg: 20px; /* radios principales para tarjetas */
+  --card-radius-md: 14px; /* radios medios para sub-cards */
+  --card-radius-sm: 10px; /* radios pequeños para chips/leyendas */
+}
+
+/* Aplicar radios suaves y consistentes en tarjetas principales */
+.dashboard-card {
+  border-radius: var(--card-radius-lg) !important;
+}
+
+.donut-metric-card {
+  border-radius: var(--card-radius-md) !important;
+}
+
+.donut-metric-card--unified {
+  border-radius: var(--card-radius-lg) !important;
+}
+
+.response-time-pill {
+  border-radius: var(--card-radius-lg) !important;
+}
+
+.donut-legend-item,
+.channel-icon {
+  border-radius: var(--card-radius-sm) !important;
+}
+
+.donut-tooltip {
+  border-radius: 12px !important;
+}
+
+
+/* ── NUEVO: Estilos para funcionalidad real del dashboard ── */
+
+/* Tarjetas de estadística clickeables */
+.stat-card--clickable {
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.stat-card--clickable:hover {
+  transform: translateY(-4px);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 8px 25px rgba(99, 102, 241, 0.15);
+}
+.stat-card--clickable:active {
+  transform: translateY(-1px);
+}
+
+/* Hint de navegación en las cards */
+.stat-nav-hint {
+  font-size: 10px;
+  color: var(--text-muted);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.stat-card--clickable:hover .stat-nav-hint {
+  opacity: 0.6;
+}
+
+/* Subtítulo en stat cards */
+.stat-subtitle {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin: 4px 0 0 0;
+  opacity: 0.7;
+  font-weight: 400;
+}
+
+/* Items de actividad clickeables */
+.activity-item--clickable {
+  cursor: pointer;
+}
+.activity-item--clickable:hover {
+  background: rgba(99, 102, 241, 0.06) !important;
+}
+
+/* Actividad vacía */
+.activity-empty {
+  padding: 32px 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* Iconos de actividad: warning, danger, admin */
+.activity-icon.warning {
+  background: rgba(245, 158, 11, 0.1);
+  color: #f59e0b;
+}
+.activity-icon.danger {
+  background: rgba(239, 68, 68, 0.1);
+  color: #ef4444;
+}
+.activity-icon.admin {
+  background: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
+}
+
+/* Meta con usuario en negrita */
+.activity-meta strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Badge offline */
+.card-badge.offline {
+  color: var(--danger);
+  background: rgba(248, 113, 113, 0.1);
+}
+
+/* Indicador en vivo */
+.live-indicator {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--success);
+  background: var(--success-light);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+
+.live-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--success);
+  border-radius: 50%;
+  animation: livePulse 2s infinite;
+}
+
+@keyframes livePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+/* ── FIN NUEVO ── */
+
+/* ═════════════════════════════════════════════════════════ */
+/* [MOD-GRID-METRICS] TARJETA RESPUESTA — Estándares CRM     */
+/* Usa estructura standard: .performance-metrics + .metric-*  */
+/* ═════════════════════════════════════════════════════════ */
+
+/* [MOD-GRID-METRICS] Contenedor tarjeta — altura adaptada al contenido */
+/* [COPILOT-EDIT] INICIO: Bloque de Tiempo Respuesta con layout consistente con otras tarjetas */
+.response-time-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.response-time-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.response-time-value {
+  font-size: clamp(24px, 2.5vw, 32px);
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1;
+  text-align: center;
+}
+/* [COPILOT-EDIT] FIN */
+
+/* ============================================================
+   [COPILOT-EDIT] RESPONSIVE — Breakpoints completos
+   1400px  → laptops grandes / monitores pequeños
+   1200px  → laptops estándar
+   1024px  → tablets landscape / laptops compactas
+   768px   → tablets portrait
+   480px   → móviles
+============================================================ */
+
+/* ── 1400px: Laptops grandes ── */
+@media (max-width: 1400px) {
+  .dashboard {
+    max-width: 100%;
+    padding: 0 8px;
+  }
+}
+
+/* ── 1200px: Laptops estándar ── */
+@media (max-width: 1200px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .metrics-charts-wrapper {
+    gap: 8px;
+    padding: 8px;
+  }
+}
+
+/* ── 1024px: Tablets landscape / laptops compactas ── */
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 16px;
+  }
+
+  .dashboard-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .header-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header-period-pills {
+    flex-wrap: wrap;
+  }
+
+  .header-content h1 {
+    font-size: 24px;
+  }
+
+  .stat-card {
+    padding: 16px;
+  }
+
+  .stat-value {
+    font-size: 24px;
+  }
+
+  .stat-icon {
+    width: 38px;
+    height: 38px;
+    font-size: 16px;
+  }
+
+  .activity-card {
+    height: auto;
+    max-height: var(--metrics-max-height);
+  }
+}
+
+/* ── 900px: Punto de quiebre grid principal a 1 columna ── */
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-unified-card {
+    grid-row: span 1;
+  }
+
+  .channels-card {
+    grid-column: span 1;
+  }
+
+  .channels-list {
+    grid-template-columns: 1fr;
+  }
+
+  .activity-card {
+    height: auto;
+    max-height: 420px;
+  }
+
+  .metrics-charts-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+/* ── 768px: Tablets portrait ── */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 12px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .stat-card {
+    padding: 14px;
+  }
+
+  .stat-value {
+    font-size: 22px;
+  }
+
+  .stat-label {
+    font-size: 11px;
+  }
+
+  .stat-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .header-content h1 {
+    font-size: 22px;
+  }
+
+  .header-subtitle {
+    font-size: 12px;
+  }
+
+  .card-header {
+    padding: 12px 16px;
+  }
+
+  .card-header h3 {
+    font-size: 13px;
+  }
+
+  .activity-item {
+    padding: 10px 14px;
+  }
+
+  .activity-title {
+    font-size: 13px;
+  }
+
+  .activity-meta {
+    font-size: 11px;
+  }
+
+  .activity-time {
+    font-size: 10px;
+  }
+
+  .channel-item {
+    padding: 12px 16px;
+  }
+
+  .channel-name {
+    font-size: 13px;
+  }
+
+  .channel-count {
+    font-size: 18px;
+  }
+
+  .metrics-chart-title {
+    font-size: 11px;
+  }
+
+  .response-time-value {
+    font-size: clamp(20px, 2vw, 26px);
+  }
+
+  .response-time-label {
+    font-size: 11px;
+  }
+}
+
+/* ── 480px: Móviles ── */
+@media (max-width: 480px) {
+  .main-content {
+    padding: 8px;
+  }
+
+  .dashboard-header {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .header-content h1 {
+    font-size: 20px;
+  }
+
+  .header-period-pills {
+    gap: 4px;
+    order: 2;
+  }
+
+  .header-period-pills button {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .live-indicator {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .stat-card {
+    padding: 12px;
+  }
+
+  .stat-header {
+    margin-bottom: 10px;
+  }
+
+  .stat-value {
+    font-size: 20px;
+  }
+
+  .stat-label {
+    font-size: 10px;
+  }
+
+  .stat-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+  }
+
+  .stat-trend {
+    font-size: 10px;
+    padding: 2px 6px;
+  }
+
+  .dashboard-grid {
+    gap: 10px;
+  }
+
+  .activity-card {
+    height: auto;
+    max-height: 350px;
+  }
+
+  .activity-filters {
+    padding: 8px 12px 4px;
+    gap: 4px;
+  }
+
+  .activity-filter-pill {
+    padding: 6px 10px;
+    font-size: 11px;
+  }
+
+  .activity-item {
+    padding: 8px 12px;
+    gap: 10px;
+  }
+
+  .activity-icon {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .activity-title {
+    font-size: 12px;
+  }
+
+  .activity-meta {
+    font-size: 10px;
+  }
+
+  .activity-time {
+    font-size: 9px;
+  }
+
+  .metrics-charts-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .metrics-chart-item {
+    padding: 4px;
+    gap: 4px;
+  }
+
+  .metrics-chart-title {
+    font-size: 10px;
+  }
+
+  .response-time-value {
+    font-size: clamp(18px, 4vw, 24px);
+  }
+
+  .response-time-label {
+    font-size: 10px;
+  }
+
+  .card-header {
+    padding: 10px 12px;
+  }
+
+  .card-header h3 {
+    font-size: 12px;
+  }
+
+  .card-action {
+    font-size: 11px;
+  }
+
+  .channel-item {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .channel-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  .channel-name {
+    font-size: 12px;
+  }
+
+  .channel-status {
+    font-size: 10px;
+  }
+
+  .channel-count {
+    font-size: 16px;
+  }
+}
+
+/* ── 360px: Móviles muy pequeños ── */
+@media (max-width: 360px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .metrics-charts-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .header-period-pills {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .channels-list {
+    grid-template-columns: 1fr;
+  }
+}
