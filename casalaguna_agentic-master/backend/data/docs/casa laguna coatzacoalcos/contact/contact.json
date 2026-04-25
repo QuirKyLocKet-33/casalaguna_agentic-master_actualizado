@@ -1,0 +1,38 @@
+[
+  {
+    "id": "contact_coatzacoalcos_phone",
+    "type": "contact",
+    "category": "phone",
+    "content": "Teléfono Casa Laguna Coatzacoalcos: Números de contacto 833 207 1056 (principal) y +52 921 211 1700 (alternativo). Para llamar, marcar, contactar por teléfono, hacer reservaciones telefónicas o consultar información por llamada.",
+    "restaurant_id": "casa_laguna_coatzacoalcos",
+    "source": "CASA_LAGUNA_CONTACT", 
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "contact_coatzacoalcos_email",
+    "type": "contact", 
+    "category": "email",
+    "content": "Email Casa Laguna Coatzacoalcos: Correo electrónico banquetesfictz@posadas.com. Para escribir, contactar por correo, enviar email, comunicación por correo electrónico, reservaciones por email o consultas por email.",
+    "restaurant_id": "casa_laguna_coatzacoalcos",
+    "source": "CASA_LAGUNA_CONTACT",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "contact_coatzacoalcos_social",
+    "type": "contact",
+    "category": "social_media", 
+    "content": "Redes sociales Casa Laguna Coatzacoalcos son: - Instagram: @casalaguna.coatzacoalcos - Facebook: casalaguna.coatzacoalcos. Para seguir en redes, ver en Instagram, buscar en Facebook, redes sociales, social media o encontrar en redes.",
+    "restaurant_id": "casa_laguna_coatzacoalcos",
+    "source": "CASA_LAGUNA_CONTACT",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "contact_coatzacoalcos_website",
+    "type": "contact",
+    "category": "website",
+    "content": "Página web Casa Laguna Coatzacoalcos: Sitio web https://casalaguna.com.mx/coatzacoalcos.html. Para ver la página, sitio oficial, página de internet, web, sitio online o portal web.",
+    "restaurant_id": "casa_laguna_coatzacoalcos",
+    "source": "CASA_LAGUNA_CONTACT",
+    "updated_at": "2025-01-01"
+  }
+]

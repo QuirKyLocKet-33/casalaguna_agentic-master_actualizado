@@ -1,0 +1,47 @@
+[
+  {
+    "id": "policy_reservations_casa_laguna",
+    "type": "restaurant_policies",
+    "category": "reservations_policies",
+    "content": "Reservaciones Casa Laguna: Se aceptan reservaciones por teléfono o WhatsApp. También se reciben clientes sin reserva según disponibilidad. Se pueden hacer reservas el mismo día. Información requerida: nombre, teléfono, número de personas, fecha, hora y comentarios especiales. Capacidad máxima por mesa: 20 personas, se aceptan grupos grandes. Reservar, hacer reservación, apartar mesa, cita previa, sin cita, walk-in, disponibilidad, llamar para reservar, contactar para reservación.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_POLICIES",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "policy_cancellations_casa_laguna",
+    "type": "restaurant_policies",
+    "category": "cancellations_policies",
+    "content": "Cancelaciones Casa Laguna: No se requiere depósito para reservar. No hay penalizaciones por cancelar. Se pueden cancelar o modificar reservaciones sin costo. En caso de no presentarse, la mesa se libera para otros clientes. Aplica para reservaciones individuales, de grupo y del mismo día. Cancelar reserva, modificar reservación, cambiar hora, cambiar fecha, sin penalización, sin depósito, política flexible, no show.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_POLICIES",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "policy_hours_operations_casa_laguna",
+    "type": "restaurant_policies",
+    "category": "hours_policies",
+    "content": "Horarios Casa Laguna: Última hora para reservar: 23:00. Cocina cierra a las 23:30. En días festivos (Día de la Madre, Día del Padre, San Valentín, fiestas patrias, Navidad, Año Nuevo) los horarios pueden cambiar. Horario límite, última reservación, cierre de cocina, última orden, días festivos, feriados, horario especial, confirmar horario festivo.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_POLICIES",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "policy_payments_casa_laguna",
+    "type": "restaurant_policies",
+    "category": "payments_policies",
+    "content": "Pagos Casa Laguna: Se acepta efectivo y todas las tarjetas (crédito y débito). Se ofrece servicio de facturación. Se puede dividir la cuenta. Efectivo, tarjeta, Visa, Mastercard, American Express, factura, recibo fiscal, dividir cuenta, pago separado, medios de pago.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_POLICIES",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "policy_response_menu_dish",
+    "type": "restaurant_policies",
+    "category": "response_guidelines",
+    "content": "DIRECTRICES DE RESPUESTA PARA MENÚ Y PLATILLOS: 1) MENÚ GENERAL: Cuando pregunten por el menú, responder en UN SOLO PÁRRAFO CORTO sin listas. Mencionar 3 platos de mariscos con proteínas distintas (camarón, pulpo, pescado). Incluir 1-3 emojis. No preguntar feedback. Terminar con: 'Consulta el menú completo en https://casalaguna.com.mx/tampico.html#menu'. 2) PLATILLO ESPECÍFICO: Cuando pregunten por un platillo concreto, responder en UNA oración concisa (máximo 30 palabras), tono cálido y apetitoso, con 1-2 emojis. NO incluir enlaces ni 'Consulta el menú completo'. Terminar con: '¿Qué te parece hacer una reservación para degustar este delicioso platillo en Casa Laguna?'. 3) MASCOTAS: Responder solo: 'Lo siento, en Casa Laguna no se permiten mascotas.' No mencionar niños ni ofrecer alternativas.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_POLICIES",
+    "updated_at": "2025-01-01"
+  }
+]

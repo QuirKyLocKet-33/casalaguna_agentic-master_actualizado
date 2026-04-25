@@ -3,10 +3,10 @@
     "id": "contact_tampico_phone",
     "type": "contact",
     "category": "phone",
-    "content": "Teléfono Casa Laguna Tampico: Números de contacto 833 207 1056 (principal) y 833 230 500 (alternativo). Para llamar, marcar, contactar por teléfono, hacer reservaciones telefónicas o consultar información por llamada.",
+    "content": "Teléfono Casa Laguna Tampico: Números de contacto 833 207 1056 (principal) y 833 230 0500 (alternativo). Para llamar, marcar, contactar por teléfono, hacer reservaciones telefónicas o consultar información por llamada.",
     "restaurant_id": "casa_laguna_tampico",
     "source": "CASA_LAGUNA_CONTACT", 
-    "updated_at": "2025-01-01"
+    "updated_at": "2026-04-20"
   },
   {
     "id": "contact_tampico_email",
@@ -15,7 +15,7 @@
     "content": "Email Casa Laguna Tampico: Correo electrónico ventas3fitam@posadas.com. Para escribir, contactar por correo, enviar email, comunicación por correo electrónico, reservaciones por email o consultas por email.",
     "restaurant_id": "casa_laguna_tampico",
     "source": "CASA_LAGUNA_CONTACT",
-    "updated_at": "2025-01-01"
+    "updated_at": "2026-04-20"
   },
   {
     "id": "contact_tampico_social",
@@ -24,7 +24,7 @@
     "content": "Redes sociales Casa Laguna Tampico son: - Instagram: @casalaguna.tampico - Facebook: casalaguna.tam. Para seguir en redes, ver en Instagram, buscar en Facebook, redes sociales, social media o encontrar en redes.",
     "restaurant_id": "casa_laguna_tampico",
     "source": "CASA_LAGUNA_CONTACT",
-    "updated_at": "2025-01-01"
+    "updated_at": "2026-04-20"
   },
   {
     "id": "contact_tampico_website",
@@ -33,6 +33,6 @@
     "content": "Página web Casa Laguna Tampico: Sitio web https://casalaguna.com.mx/tampico.html. Para ver la página, sitio oficial, página de internet, web, sitio online o portal web.",
     "restaurant_id": "casa_laguna_tampico",
     "source": "CASA_LAGUNA_CONTACT",
-    "updated_at": "2025-01-01"
+    "updated_at": "2026-04-20"
   }
 ]

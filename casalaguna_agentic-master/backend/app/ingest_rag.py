@@ -11,19 +11,19 @@ from chromadb.config import Settings
 # =========================
 
 BASE_DIR = Path(__file__).resolve().parent.parent  # backend/
-MODEL_PATH = "intfloat/multilingual-e5-large"
+MODEL_PATH = str(BASE_DIR / "data" / "embeddings" / "model" / "models--intfloat--multilingual-e5-large" / "snapshots" / "0dc5580a448e4284468b8909bae50fa925907bc5")
 
-DATA_DOCS_DIR = BASE_DIR / "data" / "docs"
+DATA_DOCS_DIR = BASE_DIR / "data" / "docs" / "casalaguna_tampico"
 JSON_FILES = [
+    str(DATA_DOCS_DIR / "general.json"),
     str(DATA_DOCS_DIR / "contact" / "contact.json"),
     str(DATA_DOCS_DIR / "frequent_requests" / "faqs.json"),
     str(DATA_DOCS_DIR / "locations" / "location.json"),
     str(DATA_DOCS_DIR / "menu" / "menu.json"),
     str(DATA_DOCS_DIR / "politics" / "politics.json"),
-    str(DATA_DOCS_DIR / "general.json"),
 ]
 
-VECTOR_DB_PATH = str(BASE_DIR / "data" / "embeddings" / "vector_db" / "v5")
+VECTOR_DB_PATH = str(BASE_DIR / "data" / "embeddings" / "vector_db" / "v14")
 
 COLLECTION_NAME = "casalaguna_rag"
 

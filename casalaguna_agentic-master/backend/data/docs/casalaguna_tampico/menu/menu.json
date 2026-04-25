@@ -1,0 +1,1174 @@
+[
+  {
+    "id": "menu_general_casa_laguna",
+    "type": "restaurant_menu_overview",
+    "category": "menu_completo",
+    "content": "El menú de Casa Laguna Tampico ofrece una amplia variedad de platillos de mariscos frescos y especialidades mexicanas. Contamos con más de 100 opciones que incluyen tostadas, tacos, empanadas, quesadillas, caldos, sopas, cócteles de mariscos, camarones preparados de diferentes formas, ostiones, jaibas, ensaladas, aguachiles, molcajetes, pescados de las redes, pastas con mariscos, parrilladas, entradas tradicionales, especialidades de carne, hamburguesas, favoritos de la casa, menú para niños y postres caseros. Todo preparado con ingredientes frescos y recetas tradicionales. DIRECTRIZ DE RESPUESTA PARA MENÚ GENERAL: Cuando el usuario pregunte por el menú en general, redactar UN SOLO PÁRRAFO CORTO. Usar la construcción 'ofrecemos opciones que van desde X hasta Y, incluyendo Z'. Mencionar EXACTAMENTE 3 platos destacados de mariscos con PROTEÍNAS DISTINTAS (ejemplo: camarones al ajillo, ceviche de pescado, pulpo a la parrilla). Incluir 1-3 emojis apropiados (🦐🐙🍽️🌊). No hacer preguntas de seguimiento. Terminar con exactamente: 'Consulta el menú completo en https://casalaguna.com.mx/tampico.html#menu'.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_tostadas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "tostadas_varieties",
+    "content": "Tipos de tostadas Casa Laguna: <br>• Tostada de camarón en aguachile verde<br>• Tostada de atún en salsa Negra con pepino y aguacate<br>• Tostada de ceviche de camarón y aguacate<br>• Tostada de ceviche de pescado y aguacate<br>• Tostada de pulpo y camarón<br>• Volcán Mar y Tierra<br>• Tostada de chicharrón de atún con guacamole<br>• Tostada de mariscos en salsa Marinera<br> ¿Qué tostadas tienen? ¿Qué tipo de tostadas hay? ¿Variedad de tostadas? ¿Opciones de tostadas? ¿Tostadas disponibles?",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_tacos_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "tacos_varieties",
+    "content": "Tipos de tacos Casa Laguna: Tacos de camarón Gobernador, Tacos de camarón Roca, Tacos de jaiba, Tacos de pescado estilo Ensenada, Taco de pulpo a las brasas en salsa de tres chiles y tuetano, Tacos de salpicón Casa Laguna, Tacos de camarón en crema de chile Chipotle y aguacate. ¿Qué tacos tienen? ¿Qué tipo de tacos hay? ¿Variedad de tacos? ¿Opciones de tacos? ¿Tacos disponibles? ¿cuales son los tacos disponibles? ¿Dime los tacos que hay? ¿variedad de tacos? ¿Opciones de tacos? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_empanadas_quesadillas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "empanadas_quesadillas_varieties",
+    "content": "Tipos de empanadas y quesadillas Casa Laguna: <br>• Empanadas de camarón<br>• Empanadas de salpicón de Marlin ahumado<br>• Empanadas de salpicón de jaiba<br>• Quesadillas de camarón<br>• Quesadilla Mar y Tierra en tortilla de harina<br> ¿Qué empanadas tienen? ¿Qué quesadillas hay? ¿Variedad de empanadas? ¿Opciones de quesadillas? ¿quesadillas disponibles? ¿empanadas disponibles? ¿Dime las empanadas y quesadillas que hay? ¿Variedad de empanadas y quesadillas? ¿Opciones de empanadas y quesadillas? ¿puedo ver las opciones de empanadas y quesadillas? ¿me puedes decir las empanadas y quesadillas disponibles? ¿quiero que me digas las empanadas y quesadillas disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_sopas_caldos_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "sopas_caldos_varieties",
+    "content": "Tipos de caldos y sopas Casa Laguna: <br>• Arroz a la Tumbada estilo Veracruz<br>• Caldo de camarón en molcajete<br>• Cazuela de mariscos al gratín<br>• Cazuela de mariscos<br>• Caldo de albóndigas de camarón<br>• Sopa de mariscos 7 mares<br>• Caldo de camarones pelados<br>• Caldo Xóchitl<br>• Caldo Tlalpeño<br>• Sopa de tortilla<br> ¿Qué sopas tienen? ¿Qué caldos hay? ¿Variedad de sopas? ¿Opciones de caldos? ¿sopas disponibles? ¿caldos disponibles? ¿Dime las sopas y caldos que hay? ¿Variedad de sopas y caldos? ¿Opciones de sopas y caldos? ¿puedo ver las opciones de sopas y caldos? ¿me puedes decir las sopas y caldos disponibles? ¿quiero que me digas las sopas y caldos disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_cocteles_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "cocteles_varieties",
+    "content": "Tipos de cócteles Casa Laguna: <br>• Campechana de mariscos<br>• Campechana de mariscos en molcajete<br>• Coctel de camarón chico<br>• Coctel de camarón grande<br>• Coctel de pulpo y camarón chico<br>• Coctel de pulpo y camarón grande<br> ¿Qué cócteles tienen? ¿Qué tipo de cócteles hay? ¿Variedad de cócteles? ¿Opciones de cócteles? ¿Cócteles disponibles? ¿Dime los cócteles que hay? ¿Variedad de cócteles? ¿Opciones de cócteles? ¿puedo ver las opciones de cócteles? ¿me puedes decir los cócteles disponibles? ¿quiero que me digas los cócteles disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_camarones_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "camarones_varieties",
+    "content": "Tipos de camarones Casa Laguna: <br>• Camarones Cucaracha<br>• Camarones para pelar<br>• Torre de frutos del mar<br>• Torre de mariscos con ostiones y almeja Chocolata<br>• Torre de frutos del mar con camarones zarandeados<br> ¿Qué platillos de camarón tienen? ¿Qué tipo de camarones hay? ¿Variedad de camarones? ¿Opciones de camarones? ¿Camarones disponibles? ¿Dime los camarones que hay? ¿Variedad de camarones? ¿Opciones de camarones? ¿puedo ver las opciones de camarones? ¿me puedes decir los camarones disponibles? ¿quiero que me digas los camarones disponibles? ",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_ostiones_jaibas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "ostiones_jaibas_varieties",
+    "content": "Tipos de ostiones y jaibas Casa Laguna: <br>• Combinación de manitas de jaiba y camarón<br>• Shots mixtos Miramar<br>• Manitas de jaiba al ajo Arriero<br>• Manitas de jaiba al natural<br>• Ostiones en su concha<br>• Ostiones Rockefeller<br> ¿Qué ostiones tienen? ¿Qué jaibas hay? ¿Variedad de ostiones? ¿Opciones de jaibas? ¿Ostiones y jaibas disponibles? ¿Dime los ostiones y jaibas que hay? ¿Variedad de ostiones y jaibas? ¿Opciones de ostiones y jaibas? ¿puedo ver las opciones de ostiones y jaibas? ¿me puedes decir los ostiones y jaibas disponibles? ¿quiero que me digas los ostiones y jaibas disponibles? ",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_ensaladas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "ensaladas_varieties",
+    "content": "Tipos de ensaladas Casa Laguna: <br>• Ensalada de camarón con chile Chiltepín<br>• Ensalada de mariscos Casa Laguna<br>• Tataki de atún en salsa Ponzu<br>• Tiradito de salmón<br>• Ensalada Campirana<br>• Ensalada César<br> ¿Qué ensaladas tienen? ¿Qué tipo de ensaladas hay? ¿Variedad de ensaladas? ¿Opciones de ensaladas? ¿Ensaladas disponibles? ¿Dime las ensaladas que hay? ¿Variedad de ensaladas? ¿Opciones de ensaladas? ¿puedo ver las opciones de ensaladas? ¿me puedes decir las ensaladas disponibles? ¿quiero que me digas las ensaladas disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_aguachiles_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "aguachiles_varieties",
+    "content": "Tipos de aguachiles Casa Laguna: <br>• Aguachile verde mixto<br>• Aguachile de camarón con salsa a elección<br>• Aguachile de camarón en 4 salsas<br> ¿Qué aguachiles tienen? ¿Qué tipo de aguachiles hay? ¿Variedad de aguachiles? ¿Opciones de aguachiles? DIRECTRIZ DE RESPUESTA PARA PLATILLO ESPECÍFICO: Cuando el usuario pregunte por un platillo concreto, responder con UNA SOLA ORACIÓN concisa (máximo 30 palabras) con tono cálido y apetitoso. Incluir 1-2 emojis. NO incluir enlaces ni 'Consulta el menú completo'. Terminar con: '¿Qué te parece hacer una reservación para degustar este delicioso platillo en Casa Laguna?'.",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_molcajetes_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "molcajetes_varieties",
+    "content": "Tipos de molcajetes Casa Laguna: <br>• Chicharrón de pescado en molcajete<br>• Molcajete de mariscos gratinados<br>• Molcajete Mar y Tierra Casa Laguna<br>• Parrillada Mar y Tierra Costa Azul en molcajete<br> ¿Qué molcajetes tienen? ¿Qué tipo de molcajetes hay? ¿Variedad de molcajetes? ¿Opciones de molcajetes? ¿Molcajetes disponibles? ¿Dime los molcajetes que hay? ¿Variedad de molcajetes? ¿Opciones de molcajetes? ¿puedo ver las opciones de molcajetes? ¿me puedes decir los molcajetes disponibles? ¿quiero que me digas los molcajetes disponibles? ",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_pescados_redes_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "pescados_redes_varieties",
+    "content": "Tipos de pescados de las redes Casa Laguna: <br>• Filete de pescado al gusto<br>• Filete de pescado relleno de mariscos<br>• Lomo de atún en tapenade<br>• Lonja de Robálo con camarones<br>• Lonja de Robálo Panuco<br>• Pesca del día<br>• Posta de Robálo y camarón al ajillo<br> ¿Qué pescados tienen? ¿Qué tipo de pescados hay? ¿Variedad de pescados? ¿Opciones de pescados? ¿Pescados disponibles? ¿Dime los pescados que hay? ¿Variedad de pescados? ¿Opciones de pescados? ¿puedo ver las opciones de pescados? ¿me puedes decir los pescados disponibles? ¿quiero que me digas los pescados disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_pastas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "pastas_varieties",
+    "content": "Tipos de pastas Casa Laguna: <br>• Spaghetti o Fettuccine con camarones<br>• Risotto con camarones y mejillones<br>• Paella de mariscos<br> ¿Qué pastas tienen? ¿Qué tipo de pastas hay? ¿Variedad de pastas? ¿Opciones de pastas? ¿Pastas disponibles? ¿Dime las pastas que hay? ¿Variedad de pastas? ¿Opciones de pastas? ¿puedo ver las opciones de pastas? ¿me puedes decir las pastas disponibles? ¿quiero que me digas las pastas disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_parrilla_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "parrilla_varieties",
+    "content": "Tipos de parrilla y sartén Casa Laguna: <br>• Camarón Tempura<br>• Camarones Momia<br>• Camarones Ensenada<br>• Camarones al gusto<br>• Camarones al coco<br>• Camarones zarandeados<br>• El Navegante<br>• Combinación de Zarandeados<br>• Pulpo preparado<br>• Jaibas rellenas<br>• Fajitas de camarón<br>• Fajitas mixtas<br>• Rib Eye con camarones<br>• Salmón en costra crujiente<br>• Salmón Teriyaki<br>• Tampiqueña Mar y Tierra<br>• Brocheta de camarón<br>• Brocheta de pulpo y camarón<br> ¿Qué parrilladas tienen? ¿Qué tipo de parrilla hay? ¿Variedad de parrilla? ¿Opciones de sartén? ¿Parrilladas disponibles? ¿Dime las parrilladas que hay? ¿Variedad de parrilladas? ¿Opciones de parrilladas? ¿puedo ver las opciones de parrilladas? ¿me puedes decir las parrilladas disponibles? ¿quiero que me digas las parrilladas disponibles? ",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_entradas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "entradas_varieties",
+    "content": "Tipos de entradas Casa Laguna: <br>• Guacamole<br>• Queso fundido con chorizo<br>• Tacos dorados<br> ¿Qué entradas tienen? ¿Qué tipo de entradas hay? ¿Variedad de entradas? ¿Opciones de entradas? ¿Entradas disponibles? ¿Dime las entradas que hay? ¿Variedad de entradas? ¿Opciones de entradas? ¿puedo ver las opciones de entradas? ¿me puedes decir las entradas disponibles? ¿quiero que me digas las entradas disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_sopas_pastas_no_marinas_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "sopas_pastas_varieties",
+    "content": "Tipos de sopas y pastas no marinas Casa Laguna: <br>• Caldo Xóchitl<br>• Caldo Tlalpeño<br>• Sopa de tortilla<br>• Pasta Alfredo<br>• Pasta Bolognesa<br> ¿Qué sopas no marinas tienen? ¿Qué pastas no marinas hay? ¿Variedad de sopas tradicionales? ¿Sopas disponibles? ¿Dime las sopas que hay? ¿Variedad de sopas? ¿Opciones de sopas? ¿puedo ver las opciones de sopas? ¿me puedes decir las sopas disponibles? ¿quiero que me digas las sopas disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_especialidades_carne_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "especialidades_carne_varieties",
+    "content": "Tipos de especialidades de carne Casa Laguna: <br>• Enchiladas Suizas<br>• Fajitas estilo Tampico<br>• Rib Eye<br>• Costillas BBQ<br>• Tacos de arrachera<br>• Tampiqueña tradicional<br> ¿Qué especialidades de carne tienen? ¿Qué tipo de carnes hay? ¿Variedad de carnes? ¿Opciones de carne? ¿Especialidades de carne disponibles? ¿Dime las especialidades de carne que hay? ¿Variedad de especialidades de carne? ¿Opciones de especialidades de carne? ¿puedo ver las opciones de especialidades de carne? ¿me puedes decir las especialidades de carne disponibles? ¿quiero que me digas las especialidades de carne disponibles? " ,
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_hamburguesas_favoritos_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "hamburguesas_favoritos_varieties",
+    "content": "Tipos de hamburguesas y favoritos Casa Laguna: <br>• Club sándwich<br>• Pepito<br>• Hamburguesa de la casa<br>• Hamburguesa Texas<br>• Hamburguesa Teriyaki<br>• Hamburguesa de pollo<br>• Milanesa<br>• Boneless<br>• Alitas<br> ¿Qué hamburguesas tienen? ¿Qué favoritos hay? ¿Variedad de hamburguesas? ¿Opciones de favoritos? ¿Hamburguesas disponibles? ¿Dime las hamburguesas que hay? ¿Variedad de favoritos? ¿Opciones de favoritos? ¿puedo ver las opciones de favoritos? ¿me puedes decir las hamburguesas disponibles? ¿quiero que me digas las hamburguesas disponibles? ",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "tipos_menu_ninos_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "menu_ninos_varieties",
+    "content": "Tipos de menú niños Casa Laguna: <br>• Boneless niños<br>• Mini hamburguesa<br>• Pasta al gusto niños<br> ¿Qué menú para niños tienen? ¿Qué opciones para niños hay? ¿Variedad para niños? ¿Opciones infantiles? ", 
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU", 
+    "updated_at": "2025-01-01"
+  },
+  { 
+    "id": "tipos_postres_casa_laguna",
+    "type": "restaurant_menu_varieties",
+    "category": "postres_varieties",
+    "content": "Tipos de postres Casa Laguna: <br>• Flan<br>• Helado<br>• Pastel<br>• Plátanos capeados<br>• Crepa<br>• Centro de donas<br> ¿Qué postres tienen? ¿Qué tipo de postres hay? ¿Variedad de postres? ¿Opciones de postres? ¿Postres disponibles? ¿Dime los postres que hay? ¿Variedad de postres? ¿Opciones de postres? ¿puedo ver las opciones de postres? ¿me puedes decir los postres disponibles? ¿quiero que me digas los postres disponibles? ",
+    "restaurant_id": "casa_laguna_tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "updated_at": "2025-01-01"
+  },
+  {
+    "id": "menu_casa_laguna_tampico_02",
+    "type": "restaurant_menu_categories",
+    "restaurant": "Casa Laguna Tampico",
+    "source": "CASA_LAGUNA_MENU",
+    "chunks": [
+      {
+        "id": "menu_tostadas_tostada_de_camarón_en_aguachile_verde",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de camarón en aguachile verde: Camarón(140g) marinado con limón, sal, pimienta negra, mezclado con salsa de aguachile verde, servido sobre una tostada de Chipotle y aguacate. Precio: 175. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_tostadas_tostada_de_atún_en_salsa_negra_con_pepino_y_aguacate",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de atún en salsa Negra con pepino y aguacate: Láminas de atún(120g) marinadas con pepino, aguacate, limón, ajonjolí y salsa Negra, servidas en una tostada de Chipotle en forma de torre. Precio: 187. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tostadas_tostada_de_ceviche_de_camarón_y_aguacate",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de ceviche de camarón y aguacate: Camarón(120g) cocido con una mezcla de limón y aceite de olivo sobre una crujiente tostada de maíz y aguacate. Precio: 154. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tostadas_tostada_de_ceviche_de_pescado_y_aguacate",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de ceviche de pescado y aguacate: Filete de pescado(120g) en cubo marinado en limón, jitomate, cebolla morada, chile Serrano y aguacate. Precio: 138. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tostadas_tostada_de_pulpo_y_camarón",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de pulpo y camarón: Combinación de pulpo(60g) y camarón(80g) mezclados con aceite de olivo, cebolla morada, pepino, chile de Árbol asado y limón. Precio: 178. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tostadas_volcán_mar_y_tierra",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Volcán Mar y Tierra: Crujiente tortilla de maíz con queso, camarón(100g) y arrachera(80g) con salsa de tomate verde y aguacate. Precio: 193. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_tostadas_tostada_de_chicharrón_de_atún_con_guacamole",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de chicharrón de atún con guacamole: Cubos de atún(180g) marinados y enharinados, fritos en aceite con ajo, servidos en una tostada de Chipotle con guacamole y salsa de mayonesa de chile Chipotle. Precio: 175. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tostadas_tostada_de_mariscos_en_salsa_marinera",
+        "type": "menu_item",
+        "category": "Tostadas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tostada de mariscos en salsa Marinera: Combinacion de callo de hacha(60g), pulpo(40g), camarón(80g), pepino, aguacate, cebolla morada, cilantro en salsa Marinera. Precio: 195. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_empanadas_y_quesadillas_empanadas_de_camarón_2_pzas",
+        "type": "menu_item",
+        "category": "Empanadas Y Quesadillas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Empanadas de camarón (2 pzas): Masa de maíz preparada con salsa de chiles y camarón, rellena de una mezcla de camarones guisados(160g) con especias. Precio: 167. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_empanadas_y_quesadillas_empanadas_de_salpicón_de_marlin_ahumado_2_pzas",
+        "type": "menu_item",
+        "category": "Empanadas Y Quesadillas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Empanadas de salpicón de Marlin ahumado (2 pzas): Masa de maíz preparada con esencia de chiles, rellena de salpicón de Marlin ahumado(160g). Precio: 182. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_empanadas_y_quesadillas_empanadas_de_salpicón_de_jaiba_2_pzas_",
+        "type": "menu_item",
+        "category": "Empanadas Y Quesadillas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Empanadas de salpicón de jaiba( 2 pzas ): Masa de maíz preparada con esencia de chiles, rellena de salpicón de jaiba(160g) y queso Manchego. Precio: 189. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_empanadas_y_quesadillas_quesadillas_de_camarón_2_pzas",
+        "type": "menu_item",
+        "category": "Empanadas Y Quesadillas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Quesadillas de camarón (2 pzas): Tortillas de maíz rellenas de camarón(140g) a la mantequilla, queso Manchego, aguacate y salsa cremosa de chile Jalapeño. Precio: 171. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_empanadas_y_quesadillas_quesadilla_mar_y_tierra_en_tortilla_de_harina_1_pza",
+        "type": "menu_item",
+        "category": "Empanadas Y Quesadillas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Quesadilla Mar y Tierra en tortilla de harina (1 pza): Tortillas de harina con queso Manchego, camarón(100g), pulpo(60g) y arrachera(80g) marinados a las brasas. Precio: 284. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_tacos_tacos_de_camarón_gobernador_2_pzas",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de camarón Gobernador (2 pzas): Tortillas de maíz recién hechas con guiso de camarón(140g), chile Poblano, queso Manchego y un toque de adobo y aguacate. Precio: 172. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tacos_tacos_de_camarón_roca_2_pzas",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de camarón Roca (2 pzas): Camarón(120g) frito en una pasta crujiente, aderezado con crema de chile Chipotle y cebolla morada curtida, servido en tortillas de maíz. Precio: 174. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tacos_tacos_de_jaiba_2_pzas",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de jaiba (2 pzas): Tortillas de maíz rellenas de guiso de jaiba(140g) a la Mexicana, salteado en crema con esencia de chile Chipotle y queso Manchego. Precio: 167. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tacos_tacos_de_pescado_estilo_ensenada_2_pzas",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de pescado estilo Ensenada (2 pzas): Filete Tilapia(120g) rebosado montado en tortillas de maiz, repollo, salsa Mexicana y crema acida. Precio: 145. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tacos_taco_de_pulpo_a_las_brasas_en_salsa_de_tres_chiles_y_tuetano_1_pza",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Taco de pulpo a las brasas en salsa de tres chiles y tuetano (1 pza): Tuetano a la parrilla, pulpo(100g) marinado en salsa de tres chiles cocinado a la brasas, servido en tortilla de maíz y cebolla curtida. Precio: 215. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_tacos_tacos_de_salpicón_casa_laguna_2_pzas",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de salpicón Casa Laguna (2 pzas): Salpicón de Marlín(90g), pulpo(50g) y tocino dorado(40 g) con queso Manchego en tortillas de maiz. Precio: 176. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_tacos_tacos_de_camarón_en_crema_de_chile_chipotle_y_aguacate_2_pzas",
+        "type": "menu_item",
+        "category": "Tacos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de camarón en crema de chile Chipotle y aguacate (2 pzas): Camarón(120g) cocinado en crema acida con esencia de chile Chipotle montado sobre tortillas de maiz, frijol refrito y aguacate. Precio: 155. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_arroz_a_la_tumbada_estilo_veracruz",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Arroz a la Tumbada, estilo Veracruz: Mezcla de camarón(120g), pulpa de jaiba(60g) y pulpo cocido(80g) en caldo de mariscos, camarón con cabeza(60g), jaiba entera(80g) con un toque de epazote y arroz blanco. Precio: 325. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_caldos_y_sopas_caldo_de_camarón_en_molcajete",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Caldo de camarón en molcajete: Mezcla de tomate fresco, cebolla, ajo, mantequilla, epazote y camaron con cabeza(300g). Precio: 325. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_caldos_y_sopas_cazuela_de_mariscos_al_gratín",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Cazuela de mariscos al gratín: Exquisito caldo de mariscos con esencia de epazote, camarón, pulpo y jaiba, gratinado con queso Manchego y crema. Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_chica",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Chica: Camarón(100g), pulpa de jaiba (40g) pulpo cocido(60g) y queso Manchego. Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_grande",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Grande: Camarón(140g), pulpa de jaiba(80g), pulpo cocido(80g) y queso Manchego. Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_cazuela_de_mariscos",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Cazuela de mariscos: Exquisito caldo de mariscos, con esencia de epazote, pulpo, camarón y jaiba. Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_chica",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Chica: Camarón(100g), pulpa de jaiba(40g), pulpo cocido(60g). Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_grande",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Grande: Camarón(140g), pulpa de jaiba(80g), pulpo cocido(80g). Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_caldo_de_albóndigas_de_camarón_con_esencia_de_acuyo",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Caldo de albóndigas de camarón con esencia de acuyo: Caldo de mariscos con cubos de papa, zanahoria y albóndigas de camarón(180g) con hojas de acuyo. Precio: 245. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_sopa_de_mariscos_7_mares_con_esencia_de_anis_y_cilantro",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Sopa de mariscos 7 mares con esencia de anis y cilantro: Mezcla de camarón(100g), pulpo(40g), pulpa de jaiba(40g), mejillones(3 pzas), almeja chirla(2 pzas), salmón(40g) y calamar(40g), salteados con cebolla, pimientos, apio, jitomate, cilantro, ajo y anis en caldo de camarón. Precio: 285. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_caldos_y_sopas_caldo_de_camarones_pelados",
+        "type": "menu_item",
+        "category": "Caldos Y Sopas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Caldo de camarones pelados: Camarón(220g) con cubos de papa y zanahoria, en caldo de camarón perfumado de epazote. Precio: 245. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_cocteles_campechana_de_mariscos",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Campechana de mariscos: Combinación de pulpo(80g), camarón(100g), pulpa de jaiba(40g) y callo de almeja(80g) en salsa Marinera con cebolla, cilantro, aguacate y aceite de olivo. Precio: 314. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_campechana_de_mariscos_en_molcajete",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Campechana de mariscos en molcajete: Pulpo(80g), camarón cocido(140g), callo de almeja(120g), pulpa de jaiba(80g), ostión(120g) en salsa Coctelera con pepino, aguacate, cebolla, cilantro, limón, jitomate y salsa Negra. Precio: 391. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_coctel_de_camarón",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Coctel de camarón: . Precio: -. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_chico_120g",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Chico (120g): . Precio: 182. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_grande_200g",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Grande (200g): . Precio: 231. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_coctel_de_pulpo_y_camarón",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Coctel de pulpo y camarón: En salsa Coctelera con cebolla, cilantro y aguacate. Precio: -. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_chico",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Chico: Camarón(80g) y pulpo cocido(60g). Precio: 193. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_cocteles_grande",
+        "type": "menu_item",
+        "category": "Cocteles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Grande: Camarón(120g) y pulpo cocido(80g). Precio: 253. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_camarones_camarones_cucaracha_1_2kg",
+        "type": "menu_item",
+        "category": "Camarones",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones Cucaracha (1/2kg): Camarones de laguna preparados en mantequilla y una mezcla de salsa de chiles cocinados a un término crocante. Precio: 457. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_camarones_camarones_para_pelar_1_2kg",
+        "type": "menu_item",
+        "category": "Camarones",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones para pelar (1/2kg): . Precio: 431. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_camarones_torre_de_frutos_del_mar",
+        "type": "menu_item",
+        "category": "Camarones",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Torre de frutos del mar: Mezcla de pulpo(60g), salmón(40g), callo de hacha(60g), camarón(120g), pulpa de jaiba(40g), aguacate y pepino con salsa Coctelera y salsa Negra. Precio: 325. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_camarones_torre_de_mariscos_con_ostiones_en_su_concha_y_almeja_chocolata",
+        "type": "menu_item",
+        "category": "Camarones",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Torre de mariscos con ostiones en su concha y almeja Chocolata: Combinación de camarón(120g), pulpo(60g), salmón(40g), callo de hacha(60 g), ostiónes en su concha(2 pzas) y almeja Chocolata(2 pzas). Precio: 391. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_camarones_torre_de_frutos_del_mar_con_camarones_zarandeados",
+        "type": "menu_item",
+        "category": "Camarones",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Torre de frutos del mar con camarones zarandeados: Mezcla de pulpo(60g), salmón(40g), callo de hacha(60g), camarón(120g), pulpa de jaiba(40g), camarón zarandeado(4 pzas), aguacate y pepino con salsa Coctelera y salsa Negra. Precio: 345. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_ostiones_y_jaibas_combinación_de_manitas_de_jaiba_y_camarón_de_laguna_para_pelar",
+        "type": "menu_item",
+        "category": "Ostiones Y Jaibas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Combinación de manitas de jaiba y camarón de laguna para pelar: Frescas manitas de jaiba(140g) y camarón de laguna(220g) cocidos al momento y marinados con una vinagreta de limón y sal del Himalaya. Precio: 372. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ostiones_y_jaibas_shots_mixtos_miramar",
+        "type": "menu_item",
+        "category": "Ostiones Y Jaibas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Shots mixtos Miramar: Servidos en shots (6 pzas) con camarón(60g), pulpo(30g), ostión(40g), callo de hacha(40g) en diferentes salsas (aguachile verde, salsa Negra, salsa de mango y salsa de tamarindo). Precio: 295. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_ostiones_y_jaibas_manitas_de_jaiba_240g_al_ajo_arriero_con_aguacate_asado",
+        "type": "menu_item",
+        "category": "Ostiones Y Jaibas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Manitas de jaiba(240g) al ajo Arriero con aguacate asado: . Precio: 376. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ostiones_y_jaibas_manitas_de_jaiba_al_natural",
+        "type": "menu_item",
+        "category": "Ostiones Y Jaibas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Manitas de jaiba al natural: Manitas de jaiba(240g) hervidas en agua aromatizada con hierbas y lima, servidas con salsa de aguachile verde y salsa de tamarindo. Precio: 358. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_ostiones_y_jaibas_ostiones_en_su_concha",
+        "type": "menu_item",
+        "category": "Ostiones Y Jaibas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Ostiones en su concha: Ostiones frescos(12 pzas) con salsa a su elección: Salsa Coctelera, soya con chile Serrano o Huichol. Precio: 347. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_ostiones_y_jaibas_ostiones_rockefeller_6_pzas",
+        "type": "menu_item",
+        "category": "Ostiones Y Jaibas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Ostiones Rockefeller(6 pzas): Rellenos de una mezcla de ostiones y espinaca a la crema aromatizado con vino blanco y gratinados. Precio: 303. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ensaladas_ensalada_de_camarón_con_esencia_de_chile_chiltepín",
+        "type": "menu_item",
+        "category": "Ensaladas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Ensalada de camarón con esencia de chile Chiltepín: Camarones de laguna cocidos y marinados(260g) con aceite de olivo, cebolla morada, cilantro, aguacate, chile Chiltepín, limón y especias de la casa. Precio: 314. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_ensaladas_ensalada_de_mariscos_casa_laguna",
+        "type": "menu_item",
+        "category": "Ensaladas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Ensalada de mariscos Casa Laguna: Camarón(120g) en salsa de aguachile, pulpo(60g), tiradito de atún(60g), tiradito de salmón(60g), ostión(60g), callo de almeja(60g) preparados con la receta secreta de la casa. Precio: 358. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ensaladas_tataki_de_atún_en_salsa_ponzu",
+        "type": "menu_item",
+        "category": "Ensaladas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tataki de atún en salsa Ponzu: Lomo de atún fresco(200g) sellado en aceite de olivo, rebanado en laminas, aderezadas con salsa Ponzu y cítricos. Precio: 325. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ensaladas_tiradito_de_salmón",
+        "type": "menu_item",
+        "category": "Ensaladas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tiradito de salmón: Lomo de salmón fresco(200g) aderezado con mezcla de soya y cítricos. Precio: 314. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ensaladas_ensalada_campirana",
+        "type": "menu_item",
+        "category": "Ensaladas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Ensalada Campirana: Combinación de lechugas Baby, queso de cabra, manzana, fresa, nuez y reduccion de balsámico. Precio: 237. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_ensaladas_ensalada_césar",
+        "type": "menu_item",
+        "category": "Ensaladas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Ensalada César: Con pollo a la plancha(120g) crutones de ajo, queso Parmesano y aderezo César. Precio: 206. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_aguachiles_aguachile_verde_mixto",
+        "type": "menu_item",
+        "category": "Aguachiles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Aguachile verde mixto: Camarón fresco de laguna(180g), ostion(60g), atún(60 g), pulpo(60g) con pepino y cebolla morada. Precio: 380. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_aguachiles_aguachile_de_camarón_con_salsa_a_su_elección",
+        "type": "menu_item",
+        "category": "Aguachiles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Aguachile de camarón(300g) con salsa a su elección: Verde maracuya, tamarindo, Negra, mango o macha. Precio: 335. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_aguachiles_aguachile_de_camarón_en_4_salsas",
+        "type": "menu_item",
+        "category": "Aguachiles",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Aguachile de camarón(300g) en 4 salsas: Tamarindo, verde, mango y roja. Precio: 335. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_molcajetes_chicharrón_de_pescado_en_molcajete",
+        "type": "menu_item",
+        "category": "Molcajetes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Chicharrón de pescado en molcajete: Cubos de pescado Tilapia(300g) marinados al Cajún y fritos en aceite de hierbas, servidos en molcajete con guacamole y salsa a la Mexicana. Precio: 295. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_molcajetes_molcajete_de_mariscos_gratinados",
+        "type": "menu_item",
+        "category": "Molcajetes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Molcajete de mariscos gratinados: Pulpo cocido(80g), camarón(160g), pulpa de jaiba(60g) y salmón(60g) cocinados en aceite de olivo y ajo en una salsa cremosa con champiñones, vino blanco y queso Manchego. Precio: 482. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_molcajetes_molcajete_mar_y_tierra_casa_laguna",
+        "type": "menu_item",
+        "category": "Molcajetes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Molcajete Mar y Tierra Casa Laguna: Fajitas de arrachera(180g) y camarones(180g) a la parrilla con camarón entero frito(90g) en un molcajete con salsa roja tatemada y queso asado. Precio: 457. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_molcajetes_parrillada_mar_y_tierra_costa_azul_en_molcajete",
+        "type": "menu_item",
+        "category": "Molcajetes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Parrillada Mar y Tierra Costa Azul en molcajete: Chorizo español(100g), arrachera(120g), camarón(120g), pulpo zarandeado(100g), empanada de Marlin(1pza), camarón frito(90g), taco dorado de camarón(1 pza) con nopal asado, cebollita Cambray, chile Jalapeño, queso asado y salsa verde. Precio: 495. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_de_las_redes_filete_de_pescado_al_gusto",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Filete de pescado al gusto: Ajo Arriero, mantequilla, Meuniere, empanizado, crema de chile Chipotle, Veracruzana o acuyo. Precio: 292. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_de_las_redes_filete_de_pescado_relleno_de_mariscos",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Filete de pescado relleno de mariscos: Filete de pescado(200g) marinado y relleno de una mezcla(100g) de machaca de camarón, pulpo, Marlin ahumado y pulpa de jaiba cocinado al horno y gratinado con mayonesa de chile Chipotle. Precio: 358. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_de_las_redes_lomo_de_atún_en_tapenade_de_pistache_y_aceitunas",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Lomo de atún en tapenade de pistache y aceitunas: Atún(240g) marinado con aceite de olivo y especias de la casa cocinado a la parrilla cubierto con un tapenade de pistache y aceitunas decorado con camarón fríto(1 pza). Precio: 305. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_de_las_redes_lonja_de_robálo_con_camarones_al_ajo_arriero",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Lonja de Robálo con camarones al ajo Arriero: Robálo marinado(220g) con mezcla de camarones(100g) con mantequilla, ajo, chile de Árbol y vino blanco, cocinado a la parrilla. Precio: 413. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_de_las_redes_lonja_de_robálo_panuco",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Lonja de Robálo Panuco: Robálo(220g) con camarón(80g), ostiones ahumados(30g) cocinado a la mantequilla con champiñones, crema acida en una reducción de vino blanco y esencia de anis. Precio: 375. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_de_las_redes_pesca_del_día_pescado_entero",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pesca del día (pescado entero): (Chucumite, Mojarra, Pargo o Huachinango) Vive la experiencia de la frescura del mar preparado al momento ya sea fríto en aceite de ajo o al estilo zarandeado. Precio: 545. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_de_las_redes_posta_de_robálo_y_camarón_al_ajillo",
+        "type": "menu_item",
+        "category": "De Las Redes",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Posta de Robálo y camarón al ajillo: Robálo(240g) marinado con mantequilla, ajo y vino blanco a la parrilla y salseado con una exquisita mezcla de camarones(100g). Precio: 365. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_pastas_spaghetti_o_fettuccine_con_camarones",
+        "type": "menu_item",
+        "category": "Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Spaghetti o Fettuccine con camarones: Pasta al dente cocinada en aceite de olivo con ajo, camarones(220g), queso Parmesano, crema agria, vino blanco y esencia de chile de Árbol. Precio: 325. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_pastas_risotto_con_camarones_y_mejillones_negros",
+        "type": "menu_item",
+        "category": "Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Risotto con camarones y mejillones negros: Arroz Arborio con reducción de vino blanco, camarones(200g) y mejillones negros(80g), crema y queso Parmesano. Precio: 336. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_pastas_paella_de_mariscos",
+        "type": "menu_item",
+        "category": "Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Paella de mariscos: Camarón(60g), anillos de calamar(40g), pulpo(40g), mejillones(3 pzas), almejas(2 pzas), salmón(60g) y jaiba entera(50g) sofritos en aceite de olivo, ajo. cebolla, jitomate, arroz, vino blanco, azafrán y especias de la casa. Precio: 335. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_camarón_tempura_con_salsa_alioli_y_habanero",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarón Tempura con salsa Alioli y habanero: Camarón(220g) marinados y capeados en pasta Tempura y ajonjolí. Precio: 347. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_camarones_momia",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones Momia: Camarones(220g) rellenos de pulpa de jaiba a la Frank(100g), envueltos en tocino(80g). Un clásico de Tampico. Precio: 391. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_camarones_ensenada",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones Ensenada: Camarones(220g) relleno de Marlin ahumado(60g) y queso Manchego envueltos en tocino(60g)cocinados en aceite aromatizado de romero y ajo. Precio: 345. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_camarones220g_al_gusto",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones(220g) al gusto: A la diabla, empanizados, al ajo Arriero con champiñones, en mantequilla, al mojo de ajo. Precio: 325. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_camarones_220g_al_coco_en_salsa_de_mango_picante_y_salsa_de_tamarindo_con_chile_chipotle",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones (220g) al coco en salsa de mango picante y salsa de tamarindo con chile Chipotle.: . Precio: 369. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_camarones_zarandeados",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Camarones zarandeados: Camarones de mar con cabeza(350g) marinados y zarandeados a la parrilla. Precio: 380. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_el_navegante_combinación_clásica_de_mariscos",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "El Navegante, combinación clásica de mariscos: Camarones Momia(2 pzas), pulpos encebollados(90g) y filete de pescado(120g) en crema de chile Chipotle con camarones(80g). Precio: 413. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_combinación_de_zarandeados",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Combinación de Zarandeados: Pulpo(90g), camarón(120g) y filete de pescado(120g). Precio: 385. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_pulpo_preparado_a_su_elección",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pulpo preparado a su elección: Zarandeado, encebollados, al tamarindo o a la Gallega. Precio: 435. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_jaibas_rellenas_a_la_frank3_pzas",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Jaibas rellenas a la Frank(3 pzas): Rellenas de pulpa de jaiba(100g). Precio: 347. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_fajitas_de_camarón220g",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Fajitas de camarón(220g): Mezclados con pimientos, cebolla y champiñones, cocinados a la plancha. Precio: 305. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_fajitas_mixtas",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Fajitas mixtas: Camarones(120g) y arrachera(120g) en fajitas mezclados con pimientos, cebolla y champiñones, cocinados a la plancha. Precio: 315. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_rib_eye300g_con_camarones100g_a_la_parrilla",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Rib Eye(300g) con camarones(100g) a la parrilla: Cocinado con mantequilla de ajo y chile de Árbol. Precio: 512. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_salmón220g_en_costra_crujiente_de_pistaches_y_sésamo",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Salmón(220g) en costra crujiente de pistaches y sésamo: . Precio: 402. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_salmón_teriyaki",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Salmón Teriyaki: Lonja de salmón(220g) marinada con salsa Teriyaki y cocinada en aceite de olivo y ajonjolí, servida sobre una cama de Cuscús y vegetales salteados. Precio: 380. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_tampiqueña_mar_y_tierra",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tampiqueña Mar y Tierra: Arrachera(180g) y camarones(160g) a la parrilla, taco dorado de camarón, chile relleno de Marlín y queso, arroz entomatado, queso asado, guacamole y frijoles refritos. Precio: 424. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_brocheta_de_camarón220g_zarandeada",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Brocheta de camarón(220g) zarandeada: . Precio: 315. Nivel de picor: 1."
+      },
+      {
+        "id": "menu_frutos_del_mar_al_sarten_y_a_la_parrilla_brocheta_de_pulpo_y_camarón_en_salsa_de_3_chiles",
+        "type": "menu_item",
+        "category": "Frutos Del Mar Al Sartén Y A La Parrilla",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Brocheta de pulpo y camarón en salsa de 3 chiles: Camarón(160g) pelado y pulpo(120g) marinados con ajo, mostaza, limón, pimienta, salsa de chile Guajillo, Morita y chile Ancho cocinado a la parrilla. Precio: 335. Nivel de picor: 2."
+      },
+      {
+        "id": "menu_entradas_guacamole",
+        "type": "menu_item",
+        "category": "Entradas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Guacamole: Típico guacamole(250g) preparado con cebolla, jitomate, chile Serrano y cilantro, totopos y chicharrón seco(30g). Precio: 182. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_entradas_queso_fundido_con_chorizo",
+        "type": "menu_item",
+        "category": "Entradas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Queso fundido con chorizo: Queso asadero(160g), chorizo ranchero(80g), tortillas de harina o maiz. Precio: 273. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_entradas_tacos_dorados3_pzas",
+        "type": "menu_item",
+        "category": "Entradas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos dorados(3 pzas): Rellenos de pollo deshebrado(50g c/u), acompañados de lechuga en julianas, crema agria y queso fresco rallado. Precio: 224. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_sopas_y_pastas_caldo_xóchitl",
+        "type": "menu_item",
+        "category": "Sopas Y Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Caldo Xóchitl: Consomé de pollo con pechuga deshebrada(50g), zanahoria y calabaza en cubitos y arroz blanco. Guarnicion de cebolla, jitomate, chile Serrano, aguacate y limón a su gusto. Precio: 164. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_sopas_y_pastas_caldo_tlalpeño",
+        "type": "menu_item",
+        "category": "Sopas Y Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Caldo Tlalpeño: Con pechuga de pollo deshebrada(50g), chile Chipotle, garbanzo, ejotes y zanahoria, cubos de queso Manchego y abanico de aguacate. Precio: 176. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_sopas_y_pastas_sopa_de_tortilla",
+        "type": "menu_item",
+        "category": "Sopas Y Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Sopa de tortilla: Caldillo con chile Guajillo, acompañado de tiras de tortilla frita, queso fresco en cubos, chicharrón(20g), aguacate y chile Pasilla frito. Precio: 135. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_sopas_y_pastas_pasta_alfredo",
+        "type": "menu_item",
+        "category": "Sopas Y Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pasta Alfredo: Fettuccine con salsa Alfredo, jamón(50g), champiñón y queso Parmesano. Precio: 191. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_sopas_y_pastas_pasta_bolognesa",
+        "type": "menu_item",
+        "category": "Sopas Y Pastas",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pasta Bolognesa: Fettuccine con salsa Bolognesa, albahaca y queso Parmesano. Precio: 191. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_especialidades_enchiladas_suizas",
+        "type": "menu_item",
+        "category": "Especialidades",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Enchiladas Suizas: 3 piezas rellenas de pollo deshebrado(50g c/u), bañadas en cremosa salsa Suiza, gratinadas con queso Manchego y crema. Precio: 241. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_especialidades_fajitas_estilo_tampico",
+        "type": "menu_item",
+        "category": "Especialidades",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Fajitas estilo Tampico: Fajitas de arrachera o pollo(200g) o mixtas(100g c/u), asadas con cebolla y mezcla de pimientos, acompañadas con chiles toreados y quesadilla de tortilla de harina con queso Manchego. Precio: 321. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_especialidades_rib_eye",
+        "type": "menu_item",
+        "category": "Especialidades",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Rib Eye: Jugosa carne(300g) acompañada de puré de papa, guacamole con brocheta de pimiento, cebolla y chiles toreados. Precio: 483. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_especialidades_costillas_bbq_600g",
+        "type": "menu_item",
+        "category": "Especialidades",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Costillas BBQ (600g): Marinadas con especias ahumadas y cocinadas al horno, salseadas de salsa B.B.Q de la casa. Precio: 424. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_especialidades_tacos_de_arrachera3_pzas",
+        "type": "menu_item",
+        "category": "Especialidades",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tacos de arrachera(3 pzas): Arrachera marinada(70g c/u) con mezcla de pimientos, servidos con cebollitas asadas, chiles toreados y guacamole. Precio: 321. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_especialidades_tampiqueña_tradicional",
+        "type": "menu_item",
+        "category": "Especialidades",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Tampiqueña tradicional: Arrachera de res(180g) acompañada de rajas Poblanas, chiles toreados, 2 enmoladas, frijoles refritos y guacamole. Precio: 339. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_club_sándwich",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Club sándwich: Tradicional de tres pisos con pollo(120g), tocino(50g), queso Manchego, jamón(40g) y guacamole, acompañado de papas a la francesa. Precio: 293. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_pepito",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pepito: Jugoso filete de arrachera(120g), frijoles con veneno, guacamole y cebolla frita, acompañado de papas a la francesa. Precio: 317. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_hamburguesa_de_la_casa",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Hamburguesa de la casa: Jugosa carne de la marca Certified Angus Beef® a la parrilla(220g) con queso Cheddar, lechuga, cebolla morada y tomate, acompañada de papas a la francesa. Precio: 303. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_hamburguesa_texas",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Hamburguesa Texas: Jugosa carne Certified Angus Beef® a la parrilla(220g) con queso Manchego, cebolla frita y tocino(50g) bañada en salsa BBQ, acompañada de papas a la francesa. Precio: 317. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_hamburguesa_teriyaki",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Hamburguesa Teriyaki: Jugosa carne Certified Angus Beef® a la parrilla(220g) con queso Manchego, lechuga , cebolla morada y piña tatemada, bañada en salsa Teriyaki, acompañada con papas a la francesa. Precio: 303. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_hamburguesa_de_pollo",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Hamburguesa de pollo: Jugosa pechuga de pollo crocante(180g) con ensalada de col, acompañada de papas a la francesa.Pidela bañada en la salsa de tu preferencia: Red Hot, BBQ o Teriyaki. Precio: 297. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_milanesa",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Milanesa: De res o pollo(150g) acompañada de ensalada verde con queso Parmesano y papas a la francesa, puedes pedirla a la plancha o empanizada. Precio: 261. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_boneless",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Boneless: Trozos de pechuga de pollo natural empanizados(200g), bañados en salsa BBQ, Teriyaki o Red Hot, acompañados con bastones de zanahoria, apio y aderezo a elegir: Ranch o Blue cheese. Precio: 275. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_favoritos_alitas",
+        "type": "menu_item",
+        "category": "Favoritos",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Alitas: Alitas de pollo(300g) bañadas en salsa BBQ, Teriyaki o Red Hot, acompañadas con bastones de zanahoria, apio y aderezo a elegir: Ranch o Blue cheese. Precio: 233. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_menu_de_ninos_boneless_niños",
+        "type": "menu_item",
+        "category": "Menú De Niños",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Boneless niños: Trozos de pechuga de pollo empanizados(120g) con papas a la francesa acompañadas con catsup, mayonesa o BBQ. Precio: 145. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_menu_de_ninos_mini_hamburguesa",
+        "type": "menu_item",
+        "category": "Menú De Niños",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Mini hamburguesa: Jugosa carne(120g) a la parilla con o sin queso Manchego, lechuga y tomate, acompañada de papas a la francesa. Precio: 169. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_menu_de_ninos_pasta_al_gusto_niños",
+        "type": "menu_item",
+        "category": "Menú De Niños",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pasta al gusto niños: Spaghetti(120 g) con salsa a elegir, a la mantequilla, Alfredo o Pomodoro. Precio: 157. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_postres_flan",
+        "type": "menu_item",
+        "category": "Postres",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Flan: Flan de queso de cabra con cajeta, servido con salsa de frutos rojos y helado de nuez de macadamia. Precio: 159. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_postres_helado",
+        "type": "menu_item",
+        "category": "Postres",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Helado: Vainilla, chocolate, fresa, nuez de macadamia, dulce de leche. Precio: 95. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_postres_pastel",
+        "type": "menu_item",
+        "category": "Postres",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Pastel: Pregunta por nuestra selección de pasteles por rebanada. Precio: 117. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_postres_platanos_capeados",
+        "type": "menu_item",
+        "category": "Postres",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Platanos capeados: Platano macho capeado, espolvoreado con azucar glass y decorado con toppings a eleccion: La Lechera, La Lechera dulce de leche o chocolate Abuelita. Precio: 137. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_postres_crepa",
+        "type": "menu_item",
+        "category": "Postres",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Crepa: Rellena de queso crema, servida con crema de avellana, nuez garapiñada, frutos rojos y helado de dulce de leche. Precio: 159. Nivel de picor: 0."
+      },
+      {
+        "id": "menu_postres_centro_de_donas",
+        "type": "menu_item",
+        "category": "Postres",
+        "restaurant": "Casa Laguna Tampico",
+        "source": "CASA_LAGUNA_MENU",
+        "content": "Centro de donas: Centros de dona revolcados en azúcar y canela , con frutos rojos y queso crema. Precio: 137. Nivel de picor: 0."
+      }
+    ]
+  }
+]

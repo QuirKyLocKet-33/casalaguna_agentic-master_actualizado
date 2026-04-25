@@ -49,7 +49,7 @@
     "id": "reservation_channels",
     "type": "faq",
     "category": "reservation",
-    "content": "Reservar Casa Laguna: Por WhatsApp, Instagram, Facebook o sitio web. Dónde reservar, canales de reserva, medios para reservar, formas de reservación, plataformas para reservar.",
+    "content": "Reservar Casa Laguna: Puedes hacer tu reservación directamente conmigo aquí en el chat. También puedes reservar por WhatsApp, Instagram o Facebook. Dónde reservar, canales de reserva, medios para reservar, formas de reservación, plataformas para reservar. DIRECTRIZ: Cuando el usuario quiera reservar, NO redirigir a otros canales. Iniciar el flujo de reservación directamente pidiendo los datos necesarios.",
     "restaurant_id": "casa_laguna_tampico",
     "source": "CASA_LAGUNA_FAQ",
     "updated_at": "2025-01-01"
@@ -186,7 +186,7 @@
     "id": "services_pet_policy",
     "type": "faq",
     "category": "services",
-    "content": "Mascotas Casa Laguna: No permitidas. No Pet friendly, perros, gatos, mascotas prohibidas. Los animales/mascotas de servicio están prohibidas, no se permiten animales de servicio, los animales de servicio no pueden acceder al restaurante",
+    "content": "Mascotas Casa Laguna: No permitidas. No Pet friendly, perros, gatos, mascotas prohibidas. Los animales/mascotas de servicio están prohibidas, no se permiten animales de servicio, los animales de servicio no pueden acceder al restaurante. DIRECTRIZ DE RESPUESTA: Responder únicamente 'Lo siento, en Casa Laguna no se permiten mascotas.' No mencionar niños, no ofrecer buscar alternativas, no contrastar con otros grupos de personas. Mantener la respuesta breve y neutral.",
     "restaurant_id": "casa_laguna_tampico",
     "source": "CASA_LAGUNA_FAQ",
     "updated_at": "2025-01-01"
